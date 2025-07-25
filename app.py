@@ -15,61 +15,11 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for better UI
+# Custom CSS for better UI - Simplified for compatibility
 st.markdown("""
 <style>
-    /* Main page styling */
-    .main {
-        padding: 0rem 1rem;
-    }
-
-    /* Custom headers */
     .big-font {
         font-size: 34px !important;
-        font-weight: bold;
-        margin-bottom: 0px;
-    }
-
-    /* Metric cards */
-    div[data-testid="metric-container"] {
-        background-color: #f0f2f6;
-        border: 1px solid #cccccc;
-        padding: 15px;
-        border-radius: 10px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        margin: 10px 0;
-    }
-
-    /* Success/Error boxes */
-    .success-box {
-        padding: 20px;
-        border-radius: 10px;
-        background-color: #d4edda;
-        border: 1px solid #c3e6cb;
-        margin: 20px 0;
-    }
-
-    .error-box {
-        padding: 20px;
-        border-radius: 10px;
-        background-color: #f8d7da;
-        border: 1px solid #f5c6cb;
-        margin: 20px 0;
-    }
-
-    /* Form styling */
-    .stForm {
-        background-color: #ffffff;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-
-    /* Button styling */
-    .stButton > button {
-        width: 100%;
-        background-color: #4CAF50;
-        color: white;
         font-weight: bold;
     }
 </style>
@@ -83,18 +33,12 @@ def load_model():
         return pickle.load(f)
 
 
-# Header with animation
-col1, col2, col3 = st.columns([1, 2, 1])
-with col2:
-    st.markdown('<p class="big-font">🎓 Student Performance Predictor</p>', unsafe_allow_html=True)
-    st.markdown("### AI-Powered Academic Success Prediction")
+# Header
+st.markdown("# 🎓 Student Performance Predictor")
+st.markdown("### AI-Powered Academic Success Prediction")
 
-# Add a progress bar animation
-progress_bar = st.progress(0)
-for i in range(100):
-    progress_bar.progress(i + 1)
-    time.sleep(0.001)
-progress_bar.empty()
+# Remove progress bar animation - causes issues in deployment
+st.markdown("---")
 
 # Information cards
 col1, col2, col3, col4 = st.columns(4)
@@ -234,19 +178,13 @@ with tab1:
 
         with col2:
             if prediction == 1:
-                st.markdown("""
-                <div class="success-box">
-                    <h2 style="text-align: center; color: #155724;">✅ Student is likely to PASS</h2>
-                </div>
-                """, unsafe_allow_html=True)
+                st.success("### ✅ Student is likely to PASS")
                 confidence = prediction_proba[1] * 100
+                st.info(f"**Confidence:** {confidence:.1f}%")
             else:
-                st.markdown("""
-                <div class="error-box">
-                    <h2 style="text-align: center; color: #721c24;">❌ Student is likely to FAIL</h2>
-                </div>
-                """, unsafe_allow_html=True)
+                st.error("### ❌ Student is likely to FAIL")
                 confidence = prediction_proba[0] * 100
+                st.warning(f"**Confidence:** {confidence:.1f}%")
 
             # Confidence gauge
             fig = go.Figure(go.Indicator(
