@@ -1,0 +1,101 @@
+student_id,gender,age,parent_education_level,parent_income,study_hours,attendance_percentage,internal_marks,final_marks,school_type,extra_classes,test_preparation_course,peer_group_study,daily_screen_time,library_usage,sports_participation,discipline_score,monthly_absent_days,sleep_hours,mental_stress_level,learning_disability,family_support,status
+STU001,Male,21,High School,High,3.9,47.0,6,27,Public,Yes,Not Completed,Yes,7.4,Rarely,Yes,3,7,5.5,Low,No,Low,fail
+STU002,Female,16,PhD,Low,1.6,42.8,45,91,Private,Yes,Completed,No,8.0,Rarely,Yes,5,3,4.0,High,No,High,fail
+STU003,Male,16,High School,High,5.8,42.4,12,40,Private,No,Completed,No,2.3,Often,No,1,11,8.2,High,No,Low,fail
+STU004,Male,18,PhD,Medium,2.2,91.3,39,99,Private,Yes,Completed,Yes,2.8,Never,No,1,10,4.3,Low,No,Low,fail
+STU005,Male,16,Master,Low,0.2,82.2,41,63,Private,No,Completed,Yes,7.4,Rarely,Yes,10,9,7.2,Medium,No,Medium,fail
+STU006,Female,16,Master,Medium,5.2,68.5,8,26,Private,No,Not Completed,No,5.4,Sometimes,Yes,9,4,9.8,Medium,No,Low,fail
+STU007,Male,20,Master,Medium,1.4,45.9,49,62,Private,Yes,Completed,Yes,7.8,Often,Yes,7,12,4.7,High,No,High,fail
+STU008,Male,18,Bachelor,Medium,7.5,69.5,26,16,Private,Yes,Not Completed,Yes,1.9,Never,Yes,1,4,9.4,Medium,No,Low,fail
+STU009,Male,20,PhD,High,7.6,68.4,65,72,Private,No,Not Completed,Yes,5.8,Daily,No,8,10,9.9,Low,No,High,pass
+STU010,Female,21,Bachelor,High,7.3,50.4,4,32,Private,Yes,Completed,No,4.4,Sometimes,Yes,3,11,4.4,High,No,Low,fail
+STU011,Male,21,Bachelor,Low,3.0,66.0,28,83,Public,Yes,Not Completed,No,5.1,Rarely,No,8,5,9.3,Low,No,Low,fail
+STU012,Male,20,High School,Low,0.1,63.9,36,76,Public,No,Not Completed,No,6.4,Rarely,No,5,6,7.1,Low,No,Low,fail
+STU013,Male,21,Bachelor,High,7.4,77.0,37,91,Public,No,Not Completed,No,5.5,Sometimes,No,1,7,9.4,Medium,No,Low,pass
+STU014,Male,18,High School,Medium,3.4,78.1,82,28,Public,Yes,Completed,No,5.9,Rarely,Yes,7,14,7.4,High,No,High,fail
+STU015,Female,15,High School,Low,7.7,42.7,7,12,Private,No,Not Completed,Yes,5.4,Often,Yes,5,13,8.0,High,No,High,fail
+STU016,Male,20,Bachelor,High,7.7,62.5,64,45,Private,Yes,Not Completed,No,4.7,Never,Yes,6,7,7.3,Medium,No,Medium,fail
+STU017,Female,19,PhD,High,6.8,77.6,85,34,Public,Yes,Not Completed,Yes,7.9,Often,Yes,6,10,9.2,Low,No,High,pass
+STU018,Female,19,PhD,High,2.4,70.2,16,5,Private,Yes,Completed,Yes,1.1,Rarely,No,8,13,8.4,Low,No,Low,fail
+STU019,Female,16,PhD,Medium,3.1,91.4,70,81,Public,No,Not Completed,No,6.4,Daily,Yes,9,12,7.1,Low,No,Medium,pass
+STU020,Male,21,PhD,High,6.8,79.5,88,68,Private,Yes,Completed,No,6.1,Never,Yes,2,1,9.2,Low,Yes,Medium,pass
+STU021,Female,19,PhD,High,2.5,49.8,44,46,Public,Yes,Completed,Yes,7.4,Never,No,9,8,5.5,High,No,Medium,fail
+STU022,Male,16,Bachelor,High,1.4,44.2,3,24,Private,Yes,Completed,Yes,6.4,Sometimes,Yes,10,6,4.9,High,No,Low,fail
+STU023,Female,15,Bachelor,High,4.5,78.5,35,65,Private,No,Completed,Yes,8.4,Sometimes,No,9,3,5.0,Medium,No,High,pass
+STU024,Female,18,Master,Low,7.5,41.6,69,9,Public,No,Completed,No,9.6,Daily,No,10,3,6.0,Medium,No,Low,pass
+STU025,Female,18,PhD,Low,5.6,75.1,30,55,Private,No,Completed,No,4.1,Never,No,10,10,5.4,High,No,Medium,fail
+STU026,Female,18,Bachelor,High,4.6,96.4,18,29,Public,No,Not Completed,No,3.0,Daily,No,7,7,9.6,High,No,Low,pass
+STU027,Female,19,Master,Medium,0.8,74.5,60,4,Public,No,Completed,No,4.8,Sometimes,No,1,3,4.6,Low,No,Low,fail
+STU028,Female,15,PhD,Low,4.9,63.3,53,32,Public,Yes,Not Completed,No,3.6,Sometimes,No,7,12,8.2,Low,No,High,fail
+STU029,Female,19,High School,High,7.9,78.6,38,64,Public,No,Not Completed,Yes,6.5,Never,No,10,14,5.1,Medium,No,High,fail
+STU030,Female,21,Master,Low,1.1,67.5,90,17,Private,No,Completed,No,9.2,Often,No,5,5,9.3,High,No,Medium,fail
+STU031,Male,19,Bachelor,Low,4.1,72.7,73,95,Private,No,Not Completed,Yes,2.3,Rarely,Yes,6,4,9.8,Medium,No,Low,pass
+STU032,Male,15,High School,Medium,7.0,96.5,89,48,Private,Yes,Not Completed,Yes,1.9,Sometimes,Yes,10,2,6.8,High,No,Low,pass
+STU033,Female,15,High School,High,5.9,63.2,18,10,Public,No,Not Completed,Yes,3.3,Sometimes,Yes,7,12,9.3,Low,Yes,High,fail
+STU034,Female,21,High School,High,5.6,97.7,38,84,Private,No,Not Completed,No,7.5,Often,Yes,5,13,4.0,Medium,No,Low,fail
+STU035,Female,15,Master,Medium,5.6,94.3,66,25,Public,Yes,Completed,No,6.3,Often,No,7,9,8.9,Medium,Yes,Low,pass
+STU036,Male,15,Bachelor,Medium,2.9,51.7,44,62,Private,No,Not Completed,No,1.9,Daily,Yes,9,10,5.4,High,No,Low,fail
+STU037,Female,18,High School,High,2.3,44.2,12,88,Private,Yes,Completed,Yes,9.3,Daily,No,3,1,9.5,Low,No,High,pass
+STU038,Male,21,PhD,High,6.5,46.0,91,85,Private,Yes,Not Completed,Yes,8.1,Rarely,Yes,8,8,4.0,Medium,No,Medium,fail
+STU039,Male,17,High School,Medium,6.5,41.1,57,58,Public,Yes,Not Completed,Yes,1.2,Rarely,Yes,2,9,7.3,Low,No,Medium,fail
+STU040,Male,17,High School,Low,6.9,45.7,19,26,Private,Yes,Completed,Yes,6.9,Never,Yes,7,8,8.5,Medium,Yes,Low,fail
+STU041,Male,15,Master,Low,7.3,81.0,91,48,Private,Yes,Not Completed,Yes,7.9,Daily,No,2,0,5.6,Low,No,Medium,pass
+STU042,Male,17,Master,Medium,4.1,44.3,71,76,Public,No,Not Completed,Yes,4.4,Sometimes,Yes,4,9,5.2,High,No,High,fail
+STU043,Female,17,Bachelor,Low,4.0,59.1,60,32,Private,Yes,Not Completed,No,1.6,Daily,No,7,2,4.5,Medium,No,High,pass
+STU044,Female,15,PhD,Medium,6.4,90.7,38,97,Public,Yes,Completed,No,1.7,Sometimes,No,3,7,6.0,Medium,No,Medium,pass
+STU045,Female,17,Master,Low,5.2,41.4,0,98,Private,No,Not Completed,No,1.9,Often,Yes,2,5,7.4,Low,No,Medium,pass
+STU046,Female,19,High School,Low,5.6,88.9,2,0,Public,Yes,Completed,No,8.6,Daily,Yes,10,4,4.7,Low,No,Low,pass
+STU047,Female,16,Bachelor,High,6.4,56.9,76,20,Public,No,Not Completed,Yes,9.2,Often,Yes,7,4,6.3,Medium,No,Medium,pass
+STU048,Male,21,High School,High,7.1,47.1,91,54,Private,No,Completed,Yes,2.1,Rarely,No,1,5,4.1,High,No,Low,pass
+STU049,Female,16,High School,Low,2.7,81.8,61,5,Public,No,Completed,No,3.1,Rarely,Yes,8,14,8.9,Low,No,Low,fail
+STU050,Female,15,Master,Low,3.0,77.7,62,91,Public,Yes,Not Completed,Yes,2.5,Never,No,3,6,4.8,Low,No,High,pass
+STU051,Male,18,Bachelor,High,0.8,92.6,24,80,Public,Yes,Not Completed,No,2.7,Daily,No,2,0,5.7,Low,No,High,pass
+STU052,Female,21,PhD,High,4.6,84.1,55,68,Public,Yes,Completed,No,8.5,Often,Yes,3,8,4.1,Medium,No,High,pass
+STU053,Male,15,PhD,High,0.3,88.2,32,94,Public,No,Completed,No,4.0,Sometimes,Yes,5,2,6.6,Medium,No,High,pass
+STU054,Female,18,Master,Medium,3.7,56.9,37,4,Public,Yes,Not Completed,Yes,3.8,Rarely,No,8,3,9.0,Medium,No,Medium,fail
+STU055,Male,16,Master,Low,4.3,50.6,5,2,Private,Yes,Completed,No,3.0,Rarely,No,10,9,6.4,Medium,No,High,fail
+STU056,Female,15,Bachelor,High,2.3,85.0,57,52,Public,Yes,Not Completed,No,6.5,Sometimes,No,7,0,5.1,High,No,Medium,pass
+STU057,Female,21,PhD,Low,4.7,88.4,43,22,Public,No,Not Completed,No,4.4,Often,Yes,7,12,8.5,High,Yes,High,fail
+STU058,Male,21,PhD,Medium,0.2,99.4,44,52,Private,No,Not Completed,Yes,7.7,Often,No,7,10,8.7,Medium,No,Medium,fail
+STU059,Male,20,PhD,Medium,0.3,64.8,31,36,Private,Yes,Not Completed,Yes,2.9,Daily,Yes,8,9,5.0,High,No,Low,fail
+STU060,Male,19,High School,High,6.6,62.3,44,73,Private,Yes,Completed,No,8.1,Daily,No,1,2,8.6,Low,No,Medium,pass
+STU061,Male,17,PhD,Medium,2.9,86.6,60,73,Private,Yes,Not Completed,Yes,6.4,Never,No,4,1,9.7,Low,No,Medium,pass
+STU062,Male,18,High School,Low,1.0,60.4,46,82,Private,Yes,Completed,Yes,2.0,Rarely,Yes,6,1,5.0,Low,No,High,pass
+STU063,Male,20,Bachelor,High,4.2,95.8,20,16,Private,No,Not Completed,Yes,4.7,Daily,No,9,13,8.6,Medium,No,Medium,pass
+STU064,Male,17,High School,Low,6.2,91.5,79,84,Private,No,Completed,Yes,8.8,Often,Yes,2,0,8.3,Low,No,Low,pass
+STU065,Male,17,Bachelor,Low,1.7,65.7,84,77,Public,No,Not Completed,Yes,9.3,Sometimes,Yes,1,7,6.8,High,No,Low,fail
+STU066,Female,15,PhD,Medium,5.0,85.1,74,72,Public,No,Completed,Yes,5.2,Often,No,10,2,4.3,Medium,No,High,pass
+STU067,Female,17,PhD,Medium,0.7,85.3,35,0,Private,Yes,Completed,Yes,5.3,Rarely,Yes,2,2,4.4,High,No,Low,fail
+STU068,Male,19,Bachelor,Medium,0.4,46.2,98,50,Public,Yes,Not Completed,Yes,9.3,Often,Yes,7,5,9.1,Low,No,Medium,pass
+STU069,Female,21,Master,Medium,4.3,94.2,18,44,Public,Yes,Not Completed,Yes,6.3,Never,No,3,12,9.9,Low,No,Low,fail
+STU070,Female,20,Bachelor,Medium,4.3,70.3,19,76,Public,No,Not Completed,Yes,1.3,Rarely,Yes,10,7,8.1,Low,No,High,fail
+STU071,Female,17,Master,High,5.1,89.6,56,3,Private,Yes,Not Completed,No,9.2,Sometimes,Yes,2,12,6.7,Medium,No,Medium,fail
+STU072,Female,15,High School,Low,5.8,59.2,17,61,Private,No,Completed,No,3.2,Never,Yes,7,14,7.9,High,No,High,fail
+STU073,Male,19,High School,Low,7.8,93.7,46,64,Public,No,Not Completed,Yes,6.2,Rarely,No,2,8,7.6,Medium,No,Medium,fail
+STU074,Female,16,High School,Low,4.1,63.4,48,31,Private,Yes,Completed,No,2.5,Sometimes,Yes,3,8,6.3,Medium,No,Low,fail
+STU075,Male,21,PhD,Low,2.6,40.7,13,33,Public,Yes,Completed,No,1.3,Never,No,7,3,4.4,Low,No,High,fail
+STU076,Female,21,High School,Medium,6.4,94.3,14,91,Public,Yes,Not Completed,Yes,3.8,Never,No,4,13,8.9,Medium,No,High,pass
+STU077,Female,20,Master,Low,2.2,45.5,30,94,Public,No,Completed,Yes,8.0,Rarely,Yes,1,4,6.2,Medium,Yes,Medium,fail
+STU078,Female,21,High School,High,3.5,59.2,0,71,Public,Yes,Completed,Yes,3.5,Daily,Yes,5,1,8.9,Low,No,High,pass
+STU079,Male,17,Bachelor,High,0.6,97.0,53,38,Private,No,Completed,No,3.0,Never,Yes,9,10,5.5,Medium,Yes,Medium,fail
+STU080,Female,15,Bachelor,Low,0.2,97.0,2,25,Private,Yes,Completed,No,2.9,Never,No,8,8,4.0,Low,No,Medium,fail
+STU081,Male,21,PhD,Low,7.7,74.4,15,33,Private,No,Not Completed,Yes,5.6,Sometimes,Yes,9,7,5.0,Low,No,Medium,fail
+STU082,Female,21,Bachelor,High,6.7,77.9,86,53,Public,No,Not Completed,Yes,9.8,Often,Yes,10,2,6.8,Low,No,Medium,pass
+STU083,Male,16,Master,High,5.6,66.9,56,2,Private,Yes,Not Completed,Yes,5.1,Rarely,Yes,9,10,9.7,Low,No,Low,fail
+STU084,Female,16,High School,Medium,3.3,57.6,74,49,Public,No,Not Completed,No,6.0,Rarely,Yes,7,11,4.6,Medium,Yes,Medium,fail
+STU085,Male,18,PhD,High,1.4,59.7,11,11,Private,No,Completed,No,8.7,Daily,Yes,4,12,9.1,Low,No,High,fail
+STU086,Male,19,High School,Medium,1.3,80.4,73,64,Public,Yes,Completed,No,5.8,Daily,No,5,8,7.2,Low,No,Low,pass
+STU087,Female,17,High School,Medium,2.0,85.1,95,53,Public,No,Not Completed,No,2.7,Rarely,No,1,2,9.0,Medium,No,High,pass
+STU088,Male,21,Master,Medium,4.4,87.5,15,4,Public,Yes,Not Completed,Yes,3.7,Daily,Yes,1,8,5.8,Medium,No,Low,fail
+STU089,Female,21,Bachelor,Medium,5.7,87.4,71,93,Private,No,Not Completed,Yes,3.8,Sometimes,Yes,3,1,9.0,High,Yes,Medium,pass
+STU090,Female,15,Bachelor,Medium,5.3,45.5,75,93,Private,Yes,Completed,Yes,4.6,Rarely,Yes,8,11,8.6,Medium,No,Low,pass
+STU091,Female,18,High School,Low,2.2,69.7,23,56,Private,Yes,Not Completed,Yes,4.8,Daily,Yes,2,9,5.4,Medium,No,Low,fail
+STU092,Female,19,PhD,High,7.6,43.5,27,16,Private,No,Not Completed,No,8.2,Rarely,No,4,8,4.8,High,No,High,fail
+STU093,Female,18,Bachelor,Medium,5.9,73.0,7,46,Public,No,Not Completed,No,4.1,Often,Yes,2,14,9.2,Medium,No,High,fail
+STU094,Female,20,PhD,High,4.4,66.5,91,22,Private,No,Completed,Yes,5.2,Never,No,5,7,9.8,Medium,No,Medium,fail
+STU095,Female,19,Bachelor,High,4.9,93.3,35,78,Private,No,Completed,Yes,6.6,Rarely,No,9,8,4.2,Medium,No,Low,fail
+STU096,Female,21,PhD,Medium,3.4,61.1,89,84,Public,No,Completed,No,4.4,Never,Yes,1,4,8.4,Medium,No,Low,fail
+STU097,Female,21,Master,Low,2.0,47.0,7,13,Public,Yes,Completed,Yes,8.5,Daily,No,5,10,9.5,High,No,Low,fail
+STU098,Female,19,PhD,Medium,2.8,48.6,57,65,Public,No,Completed,No,6.3,Never,No,9,10,9.1,Medium,No,Medium,fail
+STU099,Female,21,Master,Low,6.1,85.7,59,74,Private,Yes,Completed,Yes,3.6,Rarely,No,1,1,9.8,Medium,No,Medium,pass
+STU100,Male,17,Master,High,0.1,77.1,49,50,Public,Yes,Completed,Yes,7.4,Often,No,9,7,8.6,High,No,Medium,pass
